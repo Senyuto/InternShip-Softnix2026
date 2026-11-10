@@ -1,0 +1,16 @@
+1. Linux
+- โครงสร้าง Directory เช่น /etc, /var, /root, /proc
+- คำสั่งจัดการไฟล์และตรวจสอบพื้นที่ Disk
+- Absolute Path และ Relative Path
+- ฝึกวิเคราะห์ปัญหา Linux Server
+
+2. Docker และ Docker Compose
+- Image, Container และ Docker Engine
+- คำสั่งจัดการ Container
+- Docker Network และการเชื่อมต่อ Database
+- Port Mapping เช่น 5434:5432
+- Compose, Volume, Environment, Healthcheck
+- ฝึกแก้ปัญหา Backend เชื่อมต่อ Database ไม่ได้
+
+3.OWASP Top 10: ทำความเข้าใจ 10 อันดับความเสี่ยงด้านความปลอดภัยสูงสุดในเว็บแอปพลิเคชัน
+- แนวทางป้องกัน วิธีเขียนโค้ดและตั้งค่าระบบเพื่อป้องกันช่องโหว่ทั้ง 10 ข้อ
