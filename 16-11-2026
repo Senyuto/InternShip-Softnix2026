@@ -1,0 +1,7 @@
+วันนี้สร้างระบบจำลอง โดยแยกเป็น 2 ส่วน คือ Application และ Monitor
+สร้าง Docker Compose สำหรับ Nginx, PostgreSQL และ MongoDB
+สร้าง Docker Compose สำหรับ Prometheus, Grafana และ Exporter
+ตั้งค่า Prometheus ให้ดึง Metrics จาก Exporters
+เรียนรู้ Docker Network และการเชื่อมต่อระหว่าง Container
+
+**ไม่ได้ทำใน google cloud เพราะ ไม่มีบัตรเครดิต**
