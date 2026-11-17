@@ -1,0 +1,5 @@
+วันนี้ สร้างระบบ Monitor ผ่าน AWS EC2 ใช้ Docker Compose รัน Prometheus, Grafana, Node Exporter, และ Blackbox Exporter
+เชื่อมระบบ Application ผ่าน Docker Network เพื่อตรวจสอบ Nginx และทรัพยากรของเครื่อง
+ทดลองเข้าใช้งาน Grafana แต่พบปัญหาเปิดหน้าเว็บไม่ได้ แม้ Container จะทำงานอยู่
+ปัญหามี RAM ประมาณ 908 MB และมีข้อความ Out of memory: Killed process คือ RAM ไม่เพียงพอจนระบบต้องปิด Process บางตัว
+สรุปปัญหาที่พบ: เครื่อง EC2 มี RAM จำกัด ทำให้ Grafana และ Container อื่น ๆ ใช้ทรัพยากรมากจนเกิดปัญหา out of memory(OOM)
