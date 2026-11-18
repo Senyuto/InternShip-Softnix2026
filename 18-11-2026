@@ -1,0 +1,4 @@
+วันนี้สร้าง EC2 ใหม่โดยเปลี่ยน Instant: m7i-flex.large
+- ติดตั้ง Docker และ Docker Compose
+- สร้าง App 3 Service มี Nginx, PostgreSQL, MongoDB
+- ติดตั้ง Prometheus และ Grafana สำหรับ monitor
