@@ -1,0 +1,3 @@
+ตรวจสอบความปลอดภัยของ EC2 ด้วย Nmap และ Nikto
+ตรวจสอบ Port ที่เปิดอยู่ และพบว่า Port 9090 ถูก Filter
+ใช้ Nikto Scan Nginx และตรวจสอบ False Positive จากไฟล์ Backup ที่แจ้งเตือน
